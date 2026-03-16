@@ -4,27 +4,28 @@
 
 module.exports = {
     // Bot Owner Configuration
-    ownerNumber: ['91xxxxxxxxxxx','917023951514'], // Add your number without + or spaces (e.g., 919876543210)
-    ownerName: ['Knight Bot Mini', 'Professor'], // Owner names corresponding to ownerNumber array
+    ownerNumber: ['91xxxxxxxxxxx','917684990894'], // Add your number without + or spaces (e.g., 919876543210)
+    ownerName: ['Knight Bot', 'darkxraja'], // Owner names corresponding to ownerNumber array
     
     // Bot Configuration
     botName: 'Knight Bot Mini',
     prefix: '.',
     sessionName: 'session',
-    sessionID: process.env.SESSION_ID || '',
+    sessionID: process.env.SESSION_ID || 'KnightBot!H4sIAAAAAAAAA5VU25KiSBT8l3rVGEGuEtERy0UE8Y4IurEPNBRQyKW6KFR6wn/fQKen52F3tvetKE7kyZOZp76DqkYNdGAHlO8AE3QJKeyPtMMQKEBrkwQSMARxSEOggG5RCiNzWh14NOc9TTAxlgdnXjsmsyi8ubq0saJ3dXkVve0LuA8Bbl8LFP0G8KLCNXTmZyn2DlSykNcYUY5b63bR9vScG/K75piaLZQ58wLuPWKICKrSKc5gCUlYOLDbhIh8jb5tMJvBJupStopf51EcTDa1wS6Wi3JqSXTvjOmocDtflbn0a/T99YHhxGnuyjW/p2UpdBWeSBxnCJ20mHPINrOKvXljQ5Of9BuUVjC2Y1hRRLsv635c874w8w2trd7L92quYhNfmvL4fh0h3TQCfcwfA8sxgqD5InHixOpAH70NJCyZo4uUwag6TIPMj8LlSY6zbs25hje7mN6vxDfkIyvn/6O7uMm2R2/DssuTwcn6nrG5hXzZNq9cXJtup1m1uBCLRZKxy6/RLxIm20qjXBKxc5ClrBXkeVpb68tba838W9z4MzgvJzfXv37SD2lLfsdSUNuzKr5KrGDweLreNrlhpKQsuGNOSNBaU9vbRYcsC8R2UtpiEac59rvjDXumZsv2ktQuAzljJWZ6JppIbAyr064vj4nOsLNjoLD3ISAwRQ0lIUV11d+NGW4IwvjiwohA+pAXjJoVh8ozTu29sQ2Op2vhbaq38wQz+xPLXV9fN/5hG5l4yh5fwBBgUkewaWBsoYbWpFvCpglT2ADlz7+GoII3+jSub8exQ5Ag0lCvanFRh/GHqx8/wyiq24q6XRXp/QESoDCf15BSVKVNr2NbhSTK0AXqWUgboCRh0cCfE0ICY6BQ0sKfW6vXcS+8yy98V3Z1MATlwxAUAwVM2Ak75hlG4rmJwgp/NN+uPWyI8bcKUjAExbOMZxiGnbAsJ8gS2xf29/efBHu8GNIQFQ1QgO5000ZMZ9P5fsvJzGymTlNVT1XwOdBHMp7Kx6JXSU450PUtczzy4nnHkXx31Q5RNm3HHLUO85JOTufZjHn5BxCggF0XXNvsFrlXWGE/4ys7PVVn1X6rjy3xT07Z7eAyv6Sr02Qw8KmTMEd0czKxZIVluLJRCuPA1KxVCq8L4eCbc2N3eMRoCGJ4QRH8tVlQj69Vro38fUzqY955TnrqEknXTqtpRm2XSQeySARzVa6S14HajbnJrOb08iBdN8tLqzaFh/3ZMid+Od/nOYR6mGvqM7OPnSl+vFXokabeqv4zQfCx+lXYG/jf1j2J9wlj7sNfMH48Jv+ykFoAi/mgw5c0Pa9ms/UaT2ORZyL1ENi7BaXSjnVPJPFPWkbB/f7XEOAipElNSqCAsIpJjWIwBKRu+8jaVVL/ppmueraxTd1+8iJsqPq5BntUwoaGJQYKK0mcKDKszD2rNqTGVthkPQCfzFfg/jemTTGsUwcAAA==
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴋɴɪɢʜᴛ ʙᴏᴛ*',
     newsletterJid: '120363161513685998@newsletter', // Newsletter JID for menu forwarding
     updateZipUrl: 'https://github.com/mruniquehacker/KnightBot-Mini/archive/refs/heads/main.zip', // URL to latest code zip for .update command
     
     // Sticker Configuration
-    packname: 'Knight Bot Mini',
+    packname: 'Knight Bot',
     
     // Bot Behavior
     selfMode: false, // Private mode - only owner can use commands
-    autoRead: false,
-    autoTyping: false,
+    autoRead: true,
+    autoTyping: true,
     autoBio: false,
     autoSticker: false,
-    autoReact: false,
+    autoReact: true,
     autoReactMode: 'bot', // set bot or all via cmd
     autoDownload: false,
     
